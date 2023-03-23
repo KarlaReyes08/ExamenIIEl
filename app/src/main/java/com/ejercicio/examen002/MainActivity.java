@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             //VARIABLES DISTINTAS
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getApplicationContext(),"Selecciono "+foto.get(i), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Selecciono a "+foto.get(i), Toast.LENGTH_SHORT).show();
             }
         });
 

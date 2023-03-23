@@ -65,7 +65,7 @@ public class Adaptador extends BaseAdapter {
 
         //compania
         TextView txtComp = v.findViewById(R.id.textView5);
-        txtComp.setText(cargo.get(i));
+        txtComp.setText(comp.get(i));
 
         //fotos de perfil
         ImageView img = v.findViewById(R.id.imageView);

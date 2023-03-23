@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
-        //ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
 
         Adaptador adaptador = new Adaptador(this,R.layout.elemento,foto,cargo,comp,pictures);
 
